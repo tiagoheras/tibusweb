@@ -1,0 +1,155 @@
+/*Universal Styling*/
+body {
+    width: 100%;
+    margin: 0;
+    font-family: Nunito, sans-serif;
+    background-color: #eeedf2;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/*Header*/
+header {
+    background-color: #212121;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+
+#logo-titre-header {
+    position: relative;
+    left: 100px;
+    height: 100px;
+    width: auto;
+}
+
+nav {
+    position: absolute;
+    top: 20px;
+    right: 60px;
+    font-size: 20px;
+    display: flex;
+}
+
+/*Dropdown menu*/
+.dropdown {
+    position: relative;
+    right: 160px;
+    background-color: #ff2a37;
+    border-radius: 8px;
+}
+
+.dropbtn {
+    padding: 5px 16px;
+    background-color: #212121;
+    border-radius: 9px 9px 0px 0px;
+    transition: all .2s ease-out;
+}
+
+.dropdown-content {
+    display: none;
+    margin-top: 5px;
+    border-radius: 8px;
+    transition: display .2 ease-in-out;
+    font-size: 16px;
+}
+
+.dropdown-content a {
+    padding: 8px 16px;
+    display: block;
+    padding-left: 10px;
+    transition: all .2s ease;
+}
+
+#last-element {
+    border-radius: 0px 0px 8px 8px;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: white;
+    color: black;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #212121;
+}
+
+/*Call to action*/
+#cta {
+    position: relative;
+    right: 60px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: red;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+/*Carousel*/
+#carousel {
+    width: 100%;
+    height: auto;
+}
+
+.container img{
+    width: 100%;
+    height: auto;
+}
+
+/*Envíos*/
+#claro.index {
+    font-size: 350px;
+    color: #e5e5e5;
+    position: relative;
+    left: -50px;
+    top: -440px;
+}
+
+#oscuro.index {
+    font-size: 350px;
+    color: #1c1c1c;
+    position: relative;
+    left: -30px;
+    top: -400px;
+}
+
+.text {
+    position: relative;
+    left: 100px;
+    top: -50px;
+}
+
+.text h2 {
+    font-size: 52px;
+    line-height: 70px;
+    position: relative;
+    top: -1020px;
+}
+
+.text p {
+    font-size: 28px;
+    position: relative;
+    top: -1010px;
+}
+
+#envíos {
+    position: absolute;
+    right: 150px;
+    top: 900px;
+    width: 280px;
+    height: auto;
+}
+
+
