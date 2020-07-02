@@ -42,8 +42,8 @@ nav {
 /*Dropdown menu*/
 .dropdown {
     position: relative;
-    right: 160px;
-    background-color: #ff2a37;
+    right: 180px;
+    background-color: red;
     border-radius: 8px;
 }
 
@@ -59,7 +59,7 @@ nav {
     margin-top: 5px;
     border-radius: 8px;
     transition: display .2 ease-in-out;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .dropdown-content a {
@@ -147,9 +147,76 @@ nav {
 #envíos {
     position: absolute;
     right: 150px;
-    top: 900px;
+    top: 725px;
     width: 280px;
     height: auto;
+}
+
+/*vector*/
+svg {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 680px;
+    z-index: -1;
+}
+
+/*Algunos de nuestros productos*/
+#algunos h3 {
+    color: white;
+    font-size: 36px;
+    position: absolute;
+    top: 1250px;
+    left: 100px;
+}
+
+#algunos .more {
+
+}
+
+.item-list {
+    position: absolute;
+    top: 1400px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 25px;
+    padding: 0 60px;
+}
+
+.talles {
+    display: flex;
+    padding-inline-start: 0;
+    padding: 0 10px;
+}
+
+.talles li {
+    padding:0 5px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #9b9b9b;
+}
+
+.item {
+    background-color: #e9e9e9;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.item img {
+    margin-top: 10px;
+    width: 225px;
+    height: auto;
+}
+
+.item h5 {
+    font-size: 20px;
+    margin: 10px;
+    text-align: center;
+    padding: 0 40px;
+}
+
+.item .precio {
+    color: red;
 }
 
 
