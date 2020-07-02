@@ -171,7 +171,23 @@ svg {
 }
 
 #algunos .more {
+    position: absolute;
+    top: 1350px;
+    right: 150px;
+    display: flex;
+    align-items: center;
+}
 
+#algunos .more a {
+    padding-right: 10px;
+    font-size: 18px;
+    font-weight: 800;
+    transition: all .2s linear;
+    color: black;
+}
+
+#algunos .more a:hover {
+    text-decoration: underline;
 }
 
 .item-list {
