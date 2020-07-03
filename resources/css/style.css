@@ -1,9 +1,24 @@
 /*Universal Styling*/
+
 body {
     width: 100%;
     margin: 0;
     font-family: Nunito, sans-serif;
     background-color: #eeedf2;
+}
+
+h2 {
+    font-size: 52px;
+    line-height: 70px;
+}
+
+h3 {
+    font-size: 36px;
+    color: white;
+}
+
+p {
+    font-size: 28px;
 }
 
 ul {
@@ -16,6 +31,7 @@ a {
 }
 
 /*Header*/
+
 header {
     background-color: #212121;
     display: flex;
@@ -40,6 +56,7 @@ nav {
 }
 
 /*Dropdown menu*/
+
 .dropdown {
     position: relative;
     right: 180px;
@@ -87,6 +104,7 @@ nav {
 }
 
 /*Call to action*/
+
 #cta {
     position: relative;
     right: 60px;
@@ -98,31 +116,25 @@ nav {
 }
 
 /*Carousel*/
+
 #carousel {
     width: 100%;
     height: auto;
 }
 
-.container img{
+.container img {
     width: 100%;
     height: auto;
 }
 
 /*Envíos*/
+
 #claro.index {
     font-size: 350px;
     color: #e5e5e5;
     position: relative;
     left: -50px;
     top: -440px;
-}
-
-#oscuro.index {
-    font-size: 350px;
-    color: #1c1c1c;
-    position: relative;
-    left: -30px;
-    top: -400px;
 }
 
 .text {
@@ -132,14 +144,11 @@ nav {
 }
 
 .text h2 {
-    font-size: 52px;
-    line-height: 70px;
     position: relative;
     top: -1020px;
 }
 
 .text p {
-    font-size: 28px;
     position: relative;
     top: -1010px;
 }
@@ -153,6 +162,7 @@ nav {
 }
 
 /*vector*/
+
 svg {
     width: 100%;
     height: auto;
@@ -162,9 +172,8 @@ svg {
 }
 
 /*Algunos de nuestros productos*/
+
 #algunos h3 {
-    color: white;
-    font-size: 36px;
     position: absolute;
     top: 1250px;
     left: 100px;
@@ -206,7 +215,7 @@ svg {
 }
 
 .talles li {
-    padding:0 5px;
+    padding: 0 5px;
     font-size: 16px;
     font-weight: 700;
     color: #9b9b9b;
@@ -233,6 +242,96 @@ svg {
 
 .item .precio {
     color: red;
+}
+
+/*Contacto*/
+
+section#contacto #claro.index {
+    position: absolute;
+    top: 1375px;
+}
+
+section#contacto {
+    height: 100vh;
+    margin-bottom: 500px;
+}
+
+section#contacto .container {
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    width: 100%;
+    top: 1850px;
+    left: 20px;
+    margin-bottom: 100px;
+}
+
+img.logo {
+    width: 60px;
+    height: 60px;
+}
+
+#wp-main {
+    background-color: #25D366;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 450px;
+    height: 75px;
+    border-radius: 25px;
+    margin-top: 70px;
+}
+
+#redes {
+    padding-top: 50px;
+}
+
+#redes h3#follow {
+    color: #7a7a7a;
+    font-weight: normal;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile #name {
+    color: #4b4b4b;
+    padding-left: 25px;
+}
+
+/*Pagos*/
+
+section#pagos {
+    background-color: #212121;
+    position: absolute;
+    top: 2400px;
+    height: 85vh;
+    width: 100%;
+}
+
+#oscuro.index {
+    font-size: 350px;
+    color: #1c1c1c;
+    position: relative;
+    left: -30px;
+    top: -400px;
+}
+
+#pagos .container .text {
+    position: relative;
+    top: 100px;
+    color: white;
+}
+
+#pagos .container img {
+    position: absolute;
+    top: 0px;
+    right: 20px;
+    height: 450px;
+    width: 450px;
+    transform: rotate(8deg);
 }
 
 
