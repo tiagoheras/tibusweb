@@ -4,7 +4,8 @@ body {
     width: 100%;
     margin: 0;
     font-family: Nunito, sans-serif;
-    background-color: #eeedf2;
+    background-color: white;
+    overflow-x: hidden;
 }
 
 h2 {
@@ -131,7 +132,7 @@ nav {
 
 #claro.index {
     font-size: 350px;
-    color: #e5e5e5;
+    color: #f1f1f1;
     position: relative;
     left: -50px;
     top: -440px;
@@ -153,7 +154,7 @@ nav {
     top: -1010px;
 }
 
-#envíos {
+#envíos {  
     position: absolute;
     right: 150px;
     top: 725px;
@@ -307,7 +308,7 @@ section#pagos {
     background-color: #212121;
     position: absolute;
     top: 2400px;
-    height: 85vh;
+    height: 75vh;
     width: 100%;
 }
 
@@ -334,4 +335,70 @@ section#pagos {
     transform: rotate(8deg);
 }
 
+/*Footer*/
+footer {
+    position: relative;
+    background-color: red;
+    top: -445px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+footer img {
+    height: 40px;
+    width: 40px;
+}
+
+.catalogo-footer li {
+    font-size: 22px;
+    padding-bottom: 15px;
+    transition: all .1s linear;
+}
+
+.catalogo-footer li:hover {
+    text-decoration: underline;
+}
+
+.catalogo-footer ul {
+    padding-inline-start: 0px;
+}
+
+.footer-redes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.name {
+    margin: 0;
+    font-size: 24px;
+    padding-left: 10px;
+}
+
+#wp-footer {
+    display: flex;
+    align-items: center;
+    background-color: #25D366;
+    height: 45px;
+    border-radius: 15px;
+    align-items: center;
+    margin: 0;
+}
+
+#wp-footer h3 {
+    padding: 0 10px;
+}
+
+#wp-footer img {
+    padding-left: 10px;
+    height: 35px;
+    width: 35px;
+}
+
+
+
+
+/*Catálogo*/
 

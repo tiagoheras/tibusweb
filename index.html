@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/8f730fd2fb.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./resources/css/style.css">
+    <link rel="stylesheet" href="./resources/css/style2.css">
     <title>Titre Calzados</title>
 </head>
 
@@ -22,30 +22,34 @@
                     <a id="last-element" href="catalogo.html">Hombres</a>
                 </div>
             </div>
+            <a href="#" id="cta">Pedí tu par</a>
         </nav>
-        <a href="#" id="cta">Pedí tu par</a>
+
     </header>
 
     <section id="carousel">
         <div class="container">
             <img src="./resources/images/boating-banner-hasta-50off-12c-01.jpg" alt="50% off">
         </div>
-    </section>
 
-    <section>
+    </section>
+    <section id="svg-background">
         <section id="envios">
             <h1 id="claro" class="index">envíos</h1>
-            <div class="envios-container">
+            <div class="container">
                 <div class="text">
                     <h2>Envíos gratis<br> a domicilio</h2>
-                    <p>Te llevamos el pedido a tu <br> casa sin cargo. (Zona La Plata <br> exclusivamente)</p>
+                    <p>Te llevamos el pedido a tu casa <br> sin cargo en un plazo de dos días  hábiles <br>(Zona La Plata exclusivamente). </p>
                 </div>
-                <img id="envíos" src="./resources/images/envios.jpg" alt="envíos gratis en la plata">
+                <img id="envios-img" src="./resources/images/envios.jpg" alt="envíos gratis en la plata">
             </div>
         </section>
 
         <section id="algunos">
-            <h3>Algunos de nuestros productos</h3>
+            <div class="text">
+                <h3>Algunos de nuestros productos</h3>
+            </div>
+
             <div class="more">
                 <a href="catalogo.html">Ver más</a>
                 <i class="fas fa-angle-right fa-lg"></i>
@@ -62,8 +66,8 @@
                         <li>44</li>
                         <li>45</li>
                     </ul>
-                    <h5 class="nombre">Zapato Urban</h5>
-                    <h5 class="precio">$5000.00</h5>
+                    <h4 class="nombre">Zapato Urban</h4>
+                    <h4 class="precio">$5000.00</h4>
                 </div>
                 <div class="item">
                     <img src="./resources/images/zapato urban.jpg" alt="zapato urban">
@@ -76,8 +80,8 @@
                         <li>44</li>
                         <li>45</li>
                     </ul>
-                    <h5 class="nombre">Zapato Urban</h5>
-                    <h5 class="precio">$5000.00</h5>
+                    <h4 class="nombre">Zapato Urban</h4>
+                    <h4 class="precio">$5000.00</h4>
                 </div>
                 <div class="item">
                     <img src="./resources/images/zapato urban.jpg" alt="zapato urban">
@@ -90,8 +94,8 @@
                         <li>44</li>
                         <li>45</li>
                     </ul>
-                    <h5 class="nombre">Zapato Urban</h5>
-                    <h5 class="precio">$5000.00</h5>
+                    <h4 class="nombre">Zapato Urban</h4>
+                    <h4 class="precio">$5000.00</h4>
                 </div>
                 <div class="item">
                     <img src="./resources/images/zapato urban.jpg" alt="zapato urban">
@@ -104,45 +108,52 @@
                         <li>44</li>
                         <li>45</li>
                     </ul>
-                    <h5 class="nombre">Zapato Urban</h5>
-                    <h5 class="precio">$5000.00</h5>
+                    <h4 class="nombre">Zapato Urban</h4>
+                    <h4 class="precio">$5000.00</h4>
                 </div>
             </div>
         </section>
 
         <svg width="1920" height="1680" viewBox="0 0 1920 1680" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M1920 202.389V1680H-5.37756C-5.37756 1680 -1365.78 893.643 -5.37756 837.452C1355.02 781.261 1476.85 331.394 1628 176.5C1712.64 83.0115 1845 0.5 1920 0.5V202.389Z" fill="url(#paint0_linear)"/>
+            <path
+                d="M1920 202.389V1680H-5.37756C-5.37756 1680 -1365.78 893.643 -5.37756 837.452C1355.02 781.261 1476.85 331.394 1628 176.5C1712.64 83.0115 1845 0.5 1920 0.5V202.389Z"
+                fill="url(#paint0_linear)" />
             <defs>
-            <linearGradient id="paint0_linear" x1="605.544" y1="1034.57" x2="605.544" y2="1680" gradientUnits="userSpaceOnUse">
-            <stop stop-color="#FF2937"/>
-            <stop offset="1" stop-color="#A41F27"/>
-            </linearGradient>
+                <linearGradient id="paint0_linear" x1="605.544" y1="1034.57" x2="605.544" y2="1680"
+                    gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#FF2937" />
+                    <stop offset="1" stop-color="#A41F27" />
+                </linearGradient>
             </defs>
-            </svg>
-            
+        </svg>
     </section>
-
 
     <section id="contacto">
         <h1 id="claro" class="index">contacto</h1>
         <div class="container">
             <div id="pedi-tu-par">
-                <h2>Pedí tu par vía <br> Whatsapp</h2>
-                <p>Envias un mensaje con tu modelo, <br> talle y dirección y listo! Tu pedido ya <br> queda registrado!</p>
-                <div id="wp-main" class="whatsapp">
-                    <img class="logo" src="./resources/logos/redeslogos/whatsapp.png" alt="whatsapp">
-                    <h3 id="telefono">+54 221 360-5742</h3>
+                <div class="text">
+                    <h2>Pedí tu par vía <br> Whatsapp</h2>
+                    <p>Envias un mensaje con tu modelo, <br> talle y dirección y listo! Tu pedido ya <br> queda
+                        registrado!
+                    </p>
+                </div>
+
+
+                <div id="wp-main" class="whatsapp profile">
+                    <img class="icon" src="./resources/logos/redeslogos/whatsapp.png" alt="whatsapp">
+                    <h3 id="telefono" class="name">+54 221 360-5742</h3>
                 </div>
             </div>
             <div id="redes">
                 <h3 id="follow">O seguinos en nuestras redes</h3>
                 <div class="profile">
-                    <img class="logo" src="./resources/logos/redeslogos/facebook.png" alt="facebook">
-                    <h3 id="name">Calzados Titré</h3>
+                    <img class="icon" src="./resources/logos/redeslogos/facebook.png" alt="facebook">
+                    <h3 id="sm-name" class="name">Calzados Titré</h3>
                 </div>
                 <div class="profile">
-                    <img class="logo" src="./resources/logos/redeslogos/instagram.png" alt="instagram">
-                    <h3 id="name">@titrecalzados</h3>
+                    <img class="icon" src="./resources/logos/redeslogos/instagram.png" alt="instagram">
+                    <h3 id="sm-name" class="name">@titrecalzados</h3>
                 </div>
             </div>
         </div>
@@ -153,37 +164,44 @@
         <div class="container">
             <div class="text">
                 <h2>Pagos en efectivo</h2>
-                <p>Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit. Mattis <br>  diam.</p>
+                <p>Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit. Mattis <br> diam.</p>
             </div>
             <img id="cash" src="./resources/images/cash-02.png" alt="pagos en efectivo">
         </div>
     </section>
+    <footer>
+        <div class="container">
+            <div class="catalogo-footer">
+                <h3><a href="catalogo.html" class="footer-header">Catálogo</a></h3>
+                <ul>
+                    <li><a href="">Damas</a></li>
+                    <li><a href="">Niños</a></li>
+                    <li><a href="">Caballeros</a></li>
+                </ul>
+            </div>
+            <div class="contacto-footer">
+                <h3 class="footer-header">Contacto</h3>
+                <div id="fb-footer" class="footer-redes">
+                    <img  src="./resources/logos/redeslogos/facebook.png" alt="facebook">
+                    <h3 id="fb-name" class="name">Calzados Titré</h3>
+                </div>
+                <div id="ig-footer" class="footer-redes">
+                    <img src="./resources/logos/redeslogos/instagram.png" alt="instagram">
+                    <h3 id="ig-name" class="name">@titrecalzados</h3>
+                </div>
+            </div>
+            <div class="pedi-tu-par-footer">
+                <h3 class="footer-header">Pedí tu par</h3>
+                <div id="wp-footer" class="footer-redes">
+                    <img src="./resources/logos/redeslogos/whatsapp.png" alt="whatsapp">
+                    <h3 id="telefono" class="name">+54 221 360-5742</h3>
+                </div>
+            </div>
+        </div>
+
+    </footer>
 </body>
-<footer>
-    <div class="catalogo-footer">
-        <h3><a href="catalogo.html">Catálogo</a></h3>
-        <ul>
-            <li><a href="">Damas</a></li>
-            <li><a href="">Niños</a></li>
-            <li><a href="">Caballeros</a></li>
-        </ul>
-    </div>
-    <div class="contacto-footer">
-        <h3>Contacto</h3>
-        <div id="fb-footer" class="facebook">
-            <img src="./resources/logos/redeslogos/facebook.png" alt="facebook">
-            <h3 id="fb-name">Calzados Titré</h3>
-        </div>
-        <div id="ig-footer" class="instagram">
-            <img src="./resources/logos/redeslogos/instagram.png" alt="instagram">
-            <h3 id="ig-name">@titrecalzados</h3>
-        </div>
-    </div>
-    <div class="pedi-tu-par-footer">
-        <div id="wp-footer" class="whatsapp">
-            <img src="./resources/logos/redeslogos/whatsapp.png" alt="whatsapp">
-            <h3 id="telefono">+54 221 360-5742</h3>
-        </div>
-    </div>
-</footer>
+
+
+
 </html>
