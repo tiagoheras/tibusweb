@@ -14,22 +14,22 @@ ul {
 }
 
 h4 {
-    font-size: 18px;
+    font-size: 1.125em;
 }
 
 h3 {
-    font-size: 36px;
+    font-size: 2.25em;
     font-weight: bold;
 }
 
 h2 {
-    font-size: 44px;
+    font-size: 2.75em;
     font-weight: 800;
     margin: 50px 0;
 }
 
 p {
-    font-size: 24px;
+    font-size: 1.5em;
 }
 
 a {
@@ -50,7 +50,7 @@ a {
 
 #claro.index {
     z-index: -1;
-    font-size: 350px;
+    font-size: 21.875em;
     color: #f1f1f1;
     position: absolute;
     left: -50px;
@@ -59,7 +59,7 @@ a {
 
 #oscuro.index {
     z-index: 0;
-    font-size: 350px;
+    font-size: 21.875em;
     color: #1c1c1c;
     position: absolute;
     left: -30px;
@@ -81,7 +81,7 @@ nav {
     width: 300px;
     display: flex;
     justify-content: space-between;
-    font-size: 22px;
+    font-size: 1.375em;
     align-items: center;
 }
 
@@ -108,13 +108,13 @@ nav {
     margin-top: 5px;
     border-radius: 8px;
     transition: display .2 ease-in-out;
-    font-size: 18px;
+    font-size: 1.125em;
 }
 
 .dropdown-content a {
     width: 90px;
     background-color: red;
-    font-size: 18px;
+    font-size: 0.875em;
     padding: 8px 16px;
     display: block;
     padding-left: 10px;
@@ -161,6 +161,9 @@ nav {
 #envios .text {
     margin-top: 50px;
 }
+#envios .text p {
+    width: 70%;
+}
 
 #envios-img {
     width: 250px;
@@ -171,12 +174,16 @@ nav {
 
 /* Vector */
 
-svg {
+#svg-desktop {
     width: 100%;
     height: auto;
     z-index: -1;
     position: absolute;
     top: 685px;
+}
+
+#svg-mobile {
+    display: none;
 }
 
 /* Algunos de nuestros productos */
@@ -316,9 +323,9 @@ footer .container {
     padding-bottom: 10px;
 }
 
-.catalogo-footer ul li{
+.catalogo-footer ul li {
     padding-top: 5px;
-    font-size: 20px;
+    font-size: 1.25em;
     transition: all .2s linear;
 }
 
@@ -340,7 +347,7 @@ footer .container {
 }
 
 .footer-redes h3 {
-    font-size: 22px;
+    font-size: 1.375em;
 }
 
 #wp-footer {
@@ -361,7 +368,7 @@ footer .container {
 }
 
 .tipo {
-    font-size: 32px;
+    font-size: 2em;
     padding: 10px 0;
     color: white;
     margin-left: 50px;
@@ -384,4 +391,142 @@ footer .container {
 
 .footer-catalogo {
     margin-top: 30px;
+}
+
+/* Responsive */
+
+@media only screen and (max-width: 480px) {
+    
+    h2 {
+        font-size: 1.125em;
+        margin: 20px 0;
+    }
+    h3 {
+        font-size: 1.25em;
+        margin-left: 20px;
+    }
+    p {
+        font-size: 15px;
+        margin-right: 0px;
+    }
+    #claro.index, #oscuro.index {
+        font-size: 96px;
+    }
+    #envios {
+        height: 330px;
+    }
+    #envios-img {
+        height: 250px;
+        width: auto;
+        margin-right: 10px;
+        margin-top: 50px;
+        margin-left: 30px;
+    }
+    .text {
+        margin-left: 20px;
+        font-size: 1em;
+    }
+    #envios .text {
+        margin-top: 40px;
+    }
+    #svg-desktop {
+        display: none;
+    }
+    #svg-mobile {
+        display: block;
+        position: absolute;
+        top: 250px;
+        right: 0;
+        width: 100%;
+        z-index: -1;
+    }
+    #algunos {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    #algunos .text {
+        margin-left: 0px;
+        width: 280px;
+    }
+    .more {
+        display: none;
+    }
+    .item-list {
+        margin: 30px 10px;
+    }
+    .item {
+        padding: 10px;
+        width: 130px;
+        height: 180px;
+    }
+    h4.precio {
+        font-size: 0.875em;
+    }
+    h4.nombre {
+        font-size: 1em;
+        padding-bottom: 3px;
+    }
+    ul.talles {
+        font-size: 0.75em;
+        padding-bottom: 5px;
+        padding-top: 8px;
+    }
+
+    #contacto .container {
+        display: block;
+        padding-bottom: 0px;
+    }
+    #wp-main {
+        width: 90%;
+        margin-top: 10%;
+        margin-left: 20px;
+        margin-bottom: 15px;
+        padding: 0 5px;
+    }
+    #redes {
+        width: 100vw;
+        background-color: #EEEDF2;
+        padding-bottom: 10px;
+    }
+    .icon {
+        width: 35px;
+        height: auto;
+        padding: 5px 0;
+    }
+    .name {
+        font-size: 1.5em;
+    }
+    .profile {
+        width: 50%;
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+    #sm-name {
+        font-size: 1.125em;
+    }
+    h3#follow {
+        padding-top: 10px;
+    }
+    img#cash {
+        width: 170px;
+        margin-right: 0px;
+        position: relative;
+        right: -25px;
+    }
+    #pagos {
+        height: 100%;
+    }
+    #oscuro.index {
+        position: absolute;
+        top: 1330px;
+    }
+    footer .container{
+        display: block;
+    }
+    .item-list {
+        margin-left: 20px;
+    }
+    .catalogo-footer li a{
+        font-size: 16px;
+    }
 }
