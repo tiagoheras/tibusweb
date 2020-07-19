@@ -145,6 +145,10 @@ nav {
     border-radius: 10px;
 }
 
+i.fa-bars {
+    display: none;
+}
+
 /* Carousel */
 
 #carousel .container img {
@@ -161,8 +165,9 @@ nav {
 #envios .text {
     margin-top: 50px;
 }
+
 #envios .text p {
-    width: 70%;
+    width: 100%;
 }
 
 #envios-img {
@@ -257,6 +262,10 @@ nav {
     margin-right: 60px;
     padding-top: 20px;
     padding-bottom: 60px;
+}
+
+#contacto .container h2 {
+    width: 80%;
 }
 
 .icon {
@@ -379,6 +388,7 @@ footer .container {
     font-weight: bold;
     padding: 5px 10px;
     border-radius: 10px;
+    font-size: 1.375rem;
 }
 
 .item-list-catalogo {
@@ -389,144 +399,10 @@ footer .container {
     column-gap: 25px;
 }
 
-.footer-catalogo {
-    margin-top: 30px;
+.tipo h3 {
+    font-size: 42px;
 }
 
-/* Responsive */
-
-@media only screen and (max-width: 480px) {
-    
-    h2 {
-        font-size: 1.125em;
-        margin: 20px 0;
-    }
-    h3 {
-        font-size: 1.25em;
-        margin-left: 20px;
-    }
-    p {
-        font-size: 15px;
-        margin-right: 0px;
-    }
-    #claro.index, #oscuro.index {
-        font-size: 96px;
-    }
-    #envios {
-        height: 330px;
-    }
-    #envios-img {
-        height: 250px;
-        width: auto;
-        margin-right: 10px;
-        margin-top: 50px;
-        margin-left: 30px;
-    }
-    .text {
-        margin-left: 20px;
-        font-size: 1em;
-    }
-    #envios .text {
-        margin-top: 40px;
-    }
-    #svg-desktop {
-        display: none;
-    }
-    #svg-mobile {
-        display: block;
-        position: absolute;
-        top: 250px;
-        right: 0;
-        width: 100%;
-        z-index: -1;
-    }
-    #algunos {
-        padding-top: 30px;
-        padding-bottom: 30px;
-    }
-    #algunos .text {
-        margin-left: 0px;
-        width: 280px;
-    }
-    .more {
-        display: none;
-    }
-    .item-list {
-        margin: 30px 10px;
-    }
-    .item {
-        padding: 10px;
-        width: 130px;
-        height: 180px;
-    }
-    h4.precio {
-        font-size: 0.875em;
-    }
-    h4.nombre {
-        font-size: 1em;
-        padding-bottom: 3px;
-    }
-    ul.talles {
-        font-size: 0.75em;
-        padding-bottom: 5px;
-        padding-top: 8px;
-    }
-
-    #contacto .container {
-        display: block;
-        padding-bottom: 0px;
-    }
-    #wp-main {
-        width: 90%;
-        margin-top: 10%;
-        margin-left: 20px;
-        margin-bottom: 15px;
-        padding: 0 5px;
-    }
-    #redes {
-        width: 100vw;
-        background-color: #EEEDF2;
-        padding-bottom: 10px;
-    }
-    .icon {
-        width: 35px;
-        height: auto;
-        padding: 5px 0;
-    }
-    .name {
-        font-size: 1.5em;
-    }
-    .profile {
-        width: 50%;
-        margin-top: 20px;
-        margin-left: 30px;
-    }
-    #sm-name {
-        font-size: 1.125em;
-    }
-    h3#follow {
-        padding-top: 10px;
-    }
-    img#cash {
-        width: 170px;
-        margin-right: 0px;
-        position: relative;
-        right: -25px;
-    }
-    #pagos {
-        height: 100%;
-    }
-    #oscuro.index {
-        position: absolute;
-        top: 1330px;
-    }
-    footer .container{
-        display: block;
-    }
-    .item-list {
-        margin-left: 20px;
-    }
-    .catalogo-footer li a{
-        font-size: 16px;
-    }
+.footer-catalogo {
+    margin-top: 30px;
 }

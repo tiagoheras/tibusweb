@@ -1,0 +1,303 @@
+/* Global Styling */
+
+h2 {
+    font-size: 1.125em;
+    margin: 20px 0;
+}
+
+h3 {
+    font-size: 1.25em;
+    margin-left: 20px;
+}
+
+p {
+    font-size: 15px;
+}
+
+#claro.index, #oscuro.index {
+    font-size: 96px;
+}
+
+/* Header */
+
+header#landing-page {
+    padding-left: 2%;
+    padding-right: 0;
+}
+
+img#logo-titre-header {
+    width: 35%;
+    height: auto;
+}
+
+#cta {
+    width: 90px;
+    padding-right: 0px;
+}
+
+a#cta {
+    font-size: 1rem;
+}
+
+a.dropbtn {
+    display: none;
+}
+
+i.fa-bars {
+    display: block;
+    position: relative;
+    right: 5%;
+    margin-left: 12%;
+    color: white;
+}
+
+/* Envíos */
+
+#envios {
+    height: 330px;
+}
+
+#envios-img {
+    height: 250px;
+    width: auto;
+    margin-right: 10px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.text {
+    margin-left: 20px;
+    font-size: 1em;
+    width: 180px;
+}
+
+#envios .text {
+    margin-top: 40px;
+}
+
+#svg-desktop {
+    display: none;
+}
+
+#svg-mobile {
+    display: block;
+    position: absolute;
+    top: 250px;
+    right: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+/* Algunos de nuestros productos */
+
+#algunos {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#algunos .text {
+    margin-left: 0px;
+    width: 280px;
+}
+
+.more {
+    display: none;
+}
+
+.item-list {
+    margin: 30px 10px;
+}
+
+.item {
+    padding: 10px;
+    width: 130px;
+    height: 180px;
+}
+
+h4.precio {
+    font-size: 0.875em;
+}
+
+h4.nombre {
+    font-size: 1em;
+    padding-bottom: 3px;
+}
+
+ul.talles {
+    font-size: 0.75em;
+    padding-bottom: 5px;
+    padding-top: 8px;
+}
+
+/* Contacto */
+
+#contacto .container {
+    display: block;
+    padding-bottom: 0px;
+}
+
+#contacto .container p {
+    width: 140%;
+}
+
+#wp-main {
+    width: 90%;
+    margin-top: 10%;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    padding: 0 5px;
+}
+
+#redes {
+    width: 100vw;
+    background-color: #EEEDF2;
+    padding-bottom: 10px;
+}
+
+.icon {
+    width: 35px;
+    height: auto;
+    padding: 5px 0;
+}
+
+.name {
+    font-size: 1.5em;
+}
+
+.profile {
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+#sm-name {
+    font-size: 1.125em;
+}
+
+h3#follow {
+    padding-top: 10px;
+}
+
+/* Pagos */
+
+img#cash {
+    width: 170px;
+    margin-right: 0px;
+    position: relative;
+    right: -25px;
+}
+
+#pagos {
+    height: 100%;
+}
+
+#oscuro.index {
+    position: absolute;
+    top: 220%;
+}
+
+/* Footer */
+
+footer .container {
+    display: block;
+}
+
+.item-list {
+    margin-left: 20px;
+}
+
+.catalogo-footer li a {
+    font-size: 16px;
+}
+
+footer .catalogo-footer li {
+    padding-top: 0px;
+}
+
+footer h3 {
+    margin-left: 0;
+}
+
+footer div {
+    padding-bottom: 5%;
+}
+
+footer .contacto-footer .name {
+    display: none;
+}
+
+.contacto-footer {
+    display: flex;
+    align-items: center;
+    border-top: solid 2px;
+    border-bottom: solid 2px;
+    padding-top: 8%;
+    margin-bottom: 5%;
+}
+
+.footer-redes {
+    width: 10%;
+    margin-left: 5%;
+}
+
+#wp-footer {
+    margin-left: 0;
+    font-size: 16px;
+    border-radius: 20px;
+    padding: 1% 3%;
+}
+
+/* Catalogo */
+
+header .catalogo-header {
+    padding-left: 2%;
+    padding-right: 0;
+}
+
+a#cta-catalogo {
+    font-size: 1rem;
+    width: 300px;
+    padding-right: 0px;
+    margin-right: 2%;
+}
+
+
+.item-list-catalogo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 25px;
+    column-gap: 25px;
+}
+
+.item-list-catalogo {
+    margin: 15px 20px;
+}
+
+.item {
+    padding: 10px;
+    width: 130px;
+    height: 180px;
+}
+
+h4.precio {
+    font-size: 0.875em;
+}
+
+h4.nombre {
+    font-size: 1em;
+    padding-bottom: 3px;
+}
+
+ul.talles {
+    font-size: 0.75em;
+    padding-bottom: 5px;
+    padding-top: 8px;
+}
+
+.tipo {
+    margin-left: 0;
+}
+
+.tipo h3 {
+    font-size: 36px;
+}
