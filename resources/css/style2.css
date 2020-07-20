@@ -14,22 +14,22 @@ ul {
 }
 
 h4 {
-    font-size: 1.125em;
+    font-size: 1.125rem;
 }
 
 h3 {
-    font-size: 2.25em;
+    font-size: 2.25rem;
     font-weight: bold;
 }
 
 h2 {
-    font-size: 2.75em;
+    font-size: 2.75rem;
     font-weight: 800;
     margin: 50px 0;
 }
 
 p {
-    font-size: 1.5em;
+    font-size: 1.5rem;
 }
 
 a {
@@ -50,20 +50,11 @@ a {
 
 #claro.index {
     z-index: -1;
-    font-size: 21.875em;
+    font-size: 21.875rem;
     color: #f1f1f1;
     position: absolute;
-    left: -50px;
+    left: -4%;
     padding-top: -12px;
-}
-
-#oscuro.index {
-    z-index: 0;
-    font-size: 21.875em;
-    color: #1c1c1c;
-    position: absolute;
-    left: -30px;
-    top: 350%;
 }
 
 /* Header */
@@ -162,19 +153,14 @@ i.fa-bars {
     height: 80vh;
 }
 
-#envios .text {
-    margin-top: 50px;
-}
-
-#envios .text p {
-    width: 100%;
+#envios .container {
+    padding-top: 5%; 
 }
 
 #envios-img {
     width: 250px;
     height: auto;
     margin-right: 100px;
-    margin-top: 50px;
 }
 
 /* Vector */
@@ -289,7 +275,7 @@ i.fa-bars {
 
 .whatsapp {
     background-color: #25D366;
-    width: 400px;
+    width: 60%;
     margin-left: 160px;
     border-radius: 12px;
     color: white;
@@ -307,10 +293,18 @@ i.fa-bars {
     color: white;
 }
 
+#oscuro.index {
+    z-index: 0;
+    font-size: 21.875rem;
+    color: #1c1c1c;
+    position: absolute;
+    left: -4%;
+}
+
 #cash {
-    width: 400px;
+    width: 30%;
     height: auto;
-    margin-right: 100px;
+    margin-right: 2%;
     transform: rotate(8deg);
 }
 
@@ -327,7 +321,7 @@ footer .container {
 }
 
 .footer-header {
-    padding-bottom: 10px;
+    padding-bottom: 5%;
 }
 
 .catalogo-footer ul li {
