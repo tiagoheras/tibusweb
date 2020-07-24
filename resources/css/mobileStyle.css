@@ -44,11 +44,9 @@ img#logo-titre-header {
     height: auto;
 }
 
-nav
-
 #cta {
     padding-right: 0px;
-    width: 180px;
+    width: 120%;
 }
 
 a#cta {
@@ -101,7 +99,7 @@ i.fa-bars {
 #svg-mobile {
     display: block;
     position: absolute;
-    top: 550px;
+    top: 85vh;
     right: 0;
     width: 100%;
     z-index: -1;

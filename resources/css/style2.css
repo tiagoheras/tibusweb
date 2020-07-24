@@ -149,7 +149,7 @@ nav {
 
 #carousel .container #mobile-foto {
     width: 100%;
-    height: auto;
+    height: 75vh;
     display: none;
 }
 
