@@ -44,9 +44,11 @@ img#logo-titre-header {
     height: auto;
 }
 
+nav
+
 #cta {
-    width: 100%;
     padding-right: 0px;
+    width: 180px;
 }
 
 a#cta {
