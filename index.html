@@ -12,20 +12,55 @@
 </head>
 
 <body>
+    <div id="menu-content">
+        <nav class="menu-nav">
+            <img id="logo-titre-header" src="./resources/logos/logostitre/titrelogo (1).png" alt="titre calzados">
+            <i id="close" class="fas fa-times"></i>
+        </nav>
+
+        <div class="dropdown">
+            <div class="catalogo-menu"><a href="catalogo.html" class="menu-dropbtn">Catálogo</a>
+                <i onclick="togDL()" id="plus" class="fas fa-plus"></i></div>
+
+            <div id="menu-dropdown-content" class="dropdown-content">
+                <a href="catalogo.html#Niños">Niños</a>
+                <a href="catalogo.html#Damas">Damas</a>
+                <a id="last-element" href="catalogo.html#Hombres">Hombres</a>
+            </div>
+        </div>
+        <div class="contacto-footer">
+            <h3 class="footer-header">Contacto</h3>
+            <div id="fb-footer" class="footer-redes">
+                <img src="./resources/logos/redeslogos/facebook.png" alt="facebook">
+            </div>
+            <div id="ig-footer" class="footer-redes">
+                <img src="./resources/logos/redeslogos/instagram.png" alt="instagram">
+            </div>
+        </div>
+        <div class="pedi-tu-par-footer">
+            <h3 class="footer-header">Pedí tu par</h3>
+            <div id="wp-footer" class="footer-redes">
+                <img src="./resources/logos/redeslogos/whatsapp.png" alt="whatsapp">
+                <a href="https://wa.me/message/KPRBLMV6ZPW7H1">
+                    <h3 id="telefono" class="name">+54 221 480-3687</h3>
+                </a>
+            </div>
+        </div>
+    </div>
     <header id="landing-page">
         <img id="logo-titre-header" src="./resources/logos/logostitre/logo titre.png" alt="titre calzados">
         <nav>
             <div class="dropdown">
                 <a href="catalogo.html" class="dropbtn">Catálogo</a>
                 <div class="dropdown-content">
-                    <a href="catalogo.html">Niños</a>
-                    <a href="catalogo.html">Damas</a>
-                    <a id="last-element" href="catalogo.html">Hombres</a>
+                    <a href="catalogo.html#Niños">Niños</a>
+                    <a href="catalogo.html#Damas">Damas</a>
+                    <a id="last-element" href="catalogo.html#Hombres">Hombres</a>
                 </div>
             </div>
-            <a href="#" id="cta">Pedí tu par</a>
+            <a href="#contacto" id="cta">Pedí tu par</a>
         </nav>
-        <i class="fas fa-bars fa-lg"></i>
+        <i id="menu" class="fas fa-bars fa-lg"></i>
     </header>
 
     <section id="carousel">
@@ -116,9 +151,9 @@
             </div>
         </section>
 
-        <embed id="svg-desktop" src="./resources/images/1.svg" >
+        <embed id="svg-desktop" src="./resources/images/1.svg">
 
-        <embed id="svg-mobile" src="./resources/images/2.svg" >
+        <embed id="svg-mobile" src="./resources/images/2.svg">
 
     </section>
 
@@ -136,7 +171,9 @@
 
                 <div id="wp-main" class="whatsapp profile">
                     <img class="icon" src="./resources/logos/redeslogos/whatsapp.png" alt="whatsapp">
-                    <h3 id="telefono" class="name">+54 221 360-5742</h3>
+                    <a href="https://wa.me/message/KPRBLMV6ZPW7H1">
+                        <h3 id="telefono" class="name">+54 221 480-3687</h3>
+                    </a>
                 </div>
             </div>
             <div id="redes">
@@ -163,39 +200,41 @@
             <img id="cash" src="./resources/images/cash-02.png" alt="pagos en efectivo">
         </div>
     </section>
-    <footer>
-        <div class="container">
-            <div class="catalogo-footer">
-                <h3><a href="catalogo.html" class="footer-header">Catálogo</a></h3>
-                <ul>
-                    <li><a href="">Damas</a></li>
-                    <li><a href="">Niños</a></li>
-                    <li><a href="">Caballeros</a></li>
-                </ul>
+
+</body>
+<footer>
+    <div class="container">
+        <div class="catalogo-footer">
+            <h3><a href="catalogo.html" class="footer-header">Catálogo</a></h3>
+            <ul>
+                <li><a href="catalogo.html#Damas">Damas</a></li>
+                <li><a href="catalogo.html#Niños">Niños</a></li>
+                <li><a href="catalogo.html#Hombres">Hombres</a></li>
+            </ul>
+        </div>
+        <div class="contacto-footer">
+            <h3 class="footer-header">Contacto</h3>
+            <div id="fb-footer" class="footer-redes">
+                <img src="./resources/logos/redeslogos/facebook.png" alt="facebook">
+                <h3 id="fb-name" class="name">Calzados Titré</h3>
             </div>
-            <div class="contacto-footer">
-                <h3 class="footer-header">Contacto</h3>
-                <div id="fb-footer" class="footer-redes">
-                    <img src="./resources/logos/redeslogos/facebook.png" alt="facebook">
-                    <h3 id="fb-name" class="name">Calzados Titré</h3>
-                </div>
-                <div id="ig-footer" class="footer-redes">
-                    <img src="./resources/logos/redeslogos/instagram.png" alt="instagram">
-                    <h3 id="ig-name" class="name">@titrecalzados</h3>
-                </div>
-            </div>
-            <div class="pedi-tu-par-footer">
-                <h3 class="footer-header">Pedí tu par</h3>
-                <div id="wp-footer" class="footer-redes">
-                    <img src="./resources/logos/redeslogos/whatsapp.png" alt="whatsapp">
-                    <h3 id="telefono" class="name">+54 221 360-5742</h3>
-                </div>
+            <div id="ig-footer" class="footer-redes">
+                <img src="./resources/logos/redeslogos/instagram.png" alt="instagram">
+                <h3 id="ig-name" class="name">@titrecalzados</h3>
             </div>
         </div>
+        <div class="pedi-tu-par-footer">
+            <h3 class="footer-header">Pedí tu par</h3>
+            <div id="wp-footer" class="footer-redes">
+                <img src="./resources/logos/redeslogos/whatsapp.png" alt="whatsapp">
+                <a href="https://wa.me/message/KPRBLMV6ZPW7H1">
+                    <h3 id="telefono" class="name">+54 221 480-3687</h3>
+                </a>
+            </div>
+        </div>
+    </div>
 
-    </footer>
-</body>
-
-
+</footer>
+<script type="text/javascript" src="./resources/Index.js"></script>
 
 </html>

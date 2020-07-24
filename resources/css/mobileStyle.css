@@ -1,5 +1,13 @@
 /* Global Styling */
 
+html, body {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+
 h2 {
     font-size: 1.125rem;
     margin: 20px 0;
@@ -37,7 +45,7 @@ img#logo-titre-header {
 }
 
 #cta {
-    width: 90px;
+    width: 100%;
     padding-right: 0px;
 }
 
@@ -60,7 +68,7 @@ i.fa-bars {
 /* Envíos */
 
 #envios {
-    height: 50vh;
+    height: 100%;
 }
 
 #envios-img {
@@ -71,6 +79,7 @@ i.fa-bars {
 
 #envios .container {
     padding-top: 5%;
+    margin-bottom: 10%;
 }
 
 #svg-desktop {
@@ -114,11 +123,11 @@ i.fa-bars {
     height: 180px;
 }
 
-h4.precio {
+h5.precio {
     font-size: 0.875em;
 }
 
-h4.nombre {
+h5.nombre {
     font-size: 1em;
     padding-bottom: 3px;
 }
@@ -130,6 +139,10 @@ ul.talles {
 }
 
 /* Contacto */
+
+#contacto {
+    background-color: white;
+}
 
 #contacto .container {
     display: block;
@@ -261,18 +274,41 @@ header .catalogo-header {
     padding-right: 0;
 }
 
-a#cta-catalogo {
+#cta-catalogo {
     font-size: 1rem;
-    width: 300px;
+    width: 90px;
     padding-right: 0px;
     margin-right: 2%;
+}
+
+button#talles-button {
+    display: none;
+}
+
+.talles-container {
+    width: 35px;
+    height: 35px;
+    padding: 2%;
+    background-color: red;
+    border-radius: 100%;
+    position: fixed;
+    bottom: 5%;
+    right: 10%;
+}
+
+i#talles-button2 {
+    color: white;
+    font-size: 1.75em;
+    padding: 0px;
+    padding-right: 2px;
+    padding-bottom: 5px;
 }
 
 .item-list-catalogo {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     row-gap: 25px;
-    column-gap: 25px;
+    column-gap: 5%;
 }
 
 .item-list-catalogo {
@@ -281,8 +317,8 @@ a#cta-catalogo {
 
 .item {
     padding: 10px;
-    width: 130px;
-    height: 180px;
+    width: 85%;
+    height: 88%;
 }
 
 h4.precio {
@@ -306,4 +342,67 @@ ul.talles {
 
 .tipo h3 {
     font-size: 36px;
+}
+
+#talles-table {
+    width: 80%;
+    left: 8%;
+}
+
+table, tbody {
+    width: 80%;
+}
+
+/* Menu */
+
+#menu-content {
+    background-color: red;
+    height: 100vh;
+    display: none;
+}
+
+#menu-content div {
+    color: white;
+}
+
+.menu-nav {
+width: 95%;
+margin-bottom: 5%;
+}
+
+#menu-content i {
+    color: white;
+}
+
+a.menu-dropbtn {
+    font-size: 24px;
+    margin-right: 5%;
+    font-weight: bold;
+}
+
+#menu-dropdown-content {
+    position: relative;
+    border-radius: 0px;
+    margin-bottom: 5%;
+}
+
+#menu-dropdown-content a{
+    font-size: 20px;
+    background-color: rgb(220, 0, 0);
+    border-radius: 0px;
+    width: 100%;
+    padding-left: 10%;
+    border-collapse: collapse;
+    border: .5px solid rgb(220, 0, 0);
+}
+
+.dropdown {
+    width: 100%;
+}
+
+.catalogo-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5% 5%;
 }

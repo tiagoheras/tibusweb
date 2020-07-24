@@ -1,18 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/8f730fd2fb.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./resources/css/style2.css">
     <link rel="stylesheet" media="screen and (max-device-width: 480px" href="./resources/css/mobileStyle.css">
     <title>Titre Calzados | Catálogo</title>
 </head>
-<body class="catalogo-body">
+
+<body id="catalogo-body">
     <header id="landing-page" class="catalogo-header">
-        <a href="index.html"><img id="logo-titre-header" src="./resources/logos/logostitre/titrelogo (1).png" alt="titre calzados"></a>
-        <a href="#" id="cta-catalogo">Pedí tu par</a>
+        <a href="index.html"><img id="logo-titre-header" src="./resources/logos/logostitre/titrelogo (1).png"
+                alt="titre calzados"></a>
+        <nav>
+            <button id="talles-button">Cuál es mi talle?</button>
+            <a href="index.html#contacto" id="cta-catalogo">Pedí tu par</a>
+        </nav>
+
     </header>
+    <section id="talles-table">
+        <div class="table-nav"><h1>Guía de talles</h1>
+        <i id="close" class="fas fa-times"></i></div>
+        
+        <table>
+            <tr>
+                <th>Hombres</th>
+                <td>40</td>
+                <td>41</td>
+                <td>42</td>
+                <td>43</td>
+                <td>44</td>
+                <td>45</td>
+            </tr>
+            <tr>
+                <th>Largo del pie</th>
+                <td>26,7 cm</td>
+                <td>27,3 cm</td>
+                <td>28 cm</td>
+                <td>28,7 cm</td>
+                <td>29,3 cm</td>
+                <td>30 cm</td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <th>Mujeres</th>
+                <td>34</td>
+                <td>35</td>
+                <td>36</td>
+                <td>37</td>
+                <td>38</td>
+                <td>39</td>
+            </tr>
+            <tr>
+                <th>Largo del pie</th>
+                <td>23,3 cm</td>
+                <td>23,7 cm</td>
+                <td>24,7 cm</td>
+                <td>25,3 cm</td>
+                <td>26 cm</td>
+                <td>26,7 cm</td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <th>Bebés</th>
+                <td>15</td>
+                <td>16</td>
+                <td>17</td>
+                <td>18</td>
+                <td>19</td>
+                <td>20</td>
+                <td>21</td>
+                <td>22</td>
+            </tr>
+            <tr>
+                <th>Largo del pie</th>
+                <td>10,5 cm</td>
+                <td>11,3 cm</td>
+                <td>12 cm</td>
+                <td>12,7 cm</td>
+                <td>13,3 cm</td>
+                <td>14 cm</td>
+                <td>14,7 cm</td>
+                <td>15,3 cm</td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <th>Niños</th>
+                <td>23</td>
+                <td>24</td>
+                <td>25</td>
+                <td>26</td>
+                <td>27</td>
+                <td>28</td>
+                <td>29</td>
+                <td>30</td>
+                <td>31</td>
+                <td>32</td>
+                <td>33</td>
+            </tr>
+            <tr>
+                <th>Largo del pie</th>
+                <td>16 cm</td>
+                <td>16,7 cm</td>
+                <td>17,3 cm</td>
+                <td>18 cm</td>
+                <td>18,7 cm</td>
+                <td>19,3 cm</td>
+                <td>20 cm</td>
+                <td>20,7 cm</td>
+                <td>21,3 cm</td>
+                <td>22 cm</td>
+                <td>22,7 cm</td>
+
+            </tr>
+        </table>
+        <img class="talles-img" src="https://www.boating.com.ar/wp-content/uploads/2019/06/FOOT_LENGTH-1.png" alt="Largo del pie">
+        <div class="table-text">
+            <h1>Largo del pie</h1>
+            <p>Sobre un papel, dibujá el contorno de tus pies descalzos. Medí desde el dedo más largo hasta la altura del talón. Sumale 0,5 cm de holgura para un adulto o más para un niño.</p>
+        </div>
+    </section>
     <section id="Niños">
         <div class="tipo">
             <h3>Niños</h3>
@@ -251,9 +364,9 @@
             </div>
         </div>
     </section>
-    <section id="Caballeros">
+    <section id="Hombres">
         <div class="tipo">
-            <h3>Caballeros</h3>
+            <h3>Hombres</h3>
         </div>
         <div class="item-list-catalogo">
             <div class="item">
@@ -426,21 +539,22 @@
             </div>
         </div>
     </section>
+    <div class="talles-container"><i id="talles-button2" class="fas fa-shoe-prints fa-rotate-270"></i></div>
 </body>
 <footer class="footer-catalogo">
     <div class="container">
         <div class="catalogo-footer">
             <h3><a href="catalogo.html" class="footer-header">Catálogo</a></h3>
             <ul>
-                <li><a href="">Damas</a></li>
-                <li><a href="">Niños</a></li>
-                <li><a href="">Caballeros</a></li>
+                <li><a href="#Damas">Damas</a></li>
+                <li><a href="#Niños">Niños</a></li>
+                <li><a href="#Hombres">Caballeros</a></li>
             </ul>
         </div>
         <div class="contacto-footer">
             <h3 class="footer-header">Contacto</h3>
             <div id="fb-footer" class="footer-redes">
-                <img  src="./resources/logos/redeslogos/facebook.png" alt="facebook">
+                <img src="./resources/logos/redeslogos/facebook.png" alt="facebook">
                 <h3 id="fb-name" class="name">Calzados Titré</h3>
             </div>
             <div id="ig-footer" class="footer-redes">
@@ -452,10 +566,10 @@
             <h3 class="footer-header">Pedí tu par</h3>
             <div id="wp-footer" class="footer-redes">
                 <img src="./resources/logos/redeslogos/whatsapp.png" alt="whatsapp">
-                <h3 id="telefono" class="name">+54 221 360-5742</h3>
+                <a href="https://wa.me/message/KPRBLMV6ZPW7H1"><h3 id="telefono" class="name">+54 221 480-3687</h3></a>
             </div>
         </div>
     </div>
-
 </footer>
+<script type="text/javascript" src="./resources/Catalogo.js"></script>
 </html>

@@ -136,7 +136,7 @@ nav {
     border-radius: 10px;
 }
 
-i.fa-bars {
+.fa-bars {
     display: none;
 }
 
@@ -214,10 +214,12 @@ i.fa-bars {
 
 .nombre {
     padding-bottom: 8px;
+    font-size: 1.25rem;
 }
 
 .precio {
     color: red;
+    font-size: 1.125rem;
 }
 
 .item img {
@@ -360,7 +362,7 @@ footer .container {
 
 /* Catalogo */
 
-.catalogo-body {
+#catalogo-body {
     background-color: #212121;
 }
 
@@ -388,7 +390,7 @@ footer .container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     row-gap: 25px;
-    column-gap: 25px;
+    column-gap: 2%;
 }
 
 .tipo h3 {
@@ -397,4 +399,70 @@ footer .container {
 
 .footer-catalogo {
     margin-top: 30px;
+}
+
+/* Talles */
+
+#talles-table {
+    display: none;
+    background-color: white;
+    width: 50%;
+    height: 70%;
+    position: fixed;
+    left: 25%;
+    top: 15%;
+    padding: 2%;
+    overflow-y: scroll;
+}
+
+table, th, td{
+    text-align: center;
+    padding: 2px 5px;
+    border: .5px solid rgb(212, 212, 212);
+    margin:2% auto;
+    border-collapse: collapse;
+}
+
+table {
+    margin-top: 5%;
+}
+
+.talles-img img{
+    margin: 5% auto;
+}
+
+.table-text h1{
+    margin: 5% 0;
+}
+
+.table-text p {
+    font-size: 1.125rem;
+}
+
+.table-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#talles-button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 1.125rem;
+    padding: 5px;
+    transition: all .2s linear;
+    cursor: pointer;
+}
+
+#close {
+    cursor: pointer;
+}
+
+#talles-button:hover {
+    text-decoration: underline;
+}
+
+#menu-content {
+    display: none;
 }
