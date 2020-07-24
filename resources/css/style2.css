@@ -142,9 +142,15 @@ nav {
 
 /* Carousel */
 
-#carousel .container img {
+#carousel .container #desktop-foto {
     width: 100%;
     height: auto;
+}
+
+#carousel .container #mobile-foto {
+    width: 100%;
+    height: auto;
+    display: none;
 }
 
 /* Envíos */

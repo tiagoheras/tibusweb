@@ -67,6 +67,16 @@ i.fa-bars {
     color: white;
 }
 
+/* Carousel */
+
+#carousel .container #mobile-foto {
+    display: block;
+}
+
+#carousel .container #desktop-foto {
+    display: none;
+}
+
 /* Envíos */
 
 #envios {
@@ -91,7 +101,7 @@ i.fa-bars {
 #svg-mobile {
     display: block;
     position: absolute;
-    top: 250px;
+    top: 550px;
     right: 0;
     width: 100%;
     z-index: -1;
