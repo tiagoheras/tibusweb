@@ -92,6 +92,10 @@ i.fa-bars {
     margin-bottom: 10%;
 }
 
+#envios .container p {
+    width: 100%;
+}
+
 #svg-desktop {
     display: none;
 }
@@ -224,6 +228,10 @@ img#cash {
     padding-bottom: 10%;
     width: 100vw;
     overflow-x: hidden;
+}
+
+#pagos .container p {
+    width: 100%;
 }
 
 /* Footer */
@@ -361,6 +369,15 @@ ul.talles {
 
 table, tbody {
     width: 80%;
+}
+
+
+.fa-shoe-prints {
+    display: block;
+}
+
+.table-container {
+    overflow-x: ;
 }
 
 /* Menu */

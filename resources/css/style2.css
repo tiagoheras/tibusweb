@@ -77,7 +77,7 @@ nav {
 }
 
 #logo-titre-header {
-    height: 100px;
+    height: 70px;
     width: auto;
 }
 
@@ -167,6 +167,10 @@ nav {
     width: 250px;
     height: auto;
     margin-right: 100px;
+}
+
+#envios .container p {
+    width: 70%;
 }
 
 /* Vector */
@@ -299,6 +303,10 @@ nav {
 #pagos .container {
     align-items: flex-start;
     color: white;
+}
+
+#pagos .container p {
+    width: 70%;
 }
 
 #oscuro.index {
@@ -470,5 +478,9 @@ table {
 }
 
 #menu-content {
+    display: none;
+}
+
+.fa-shoe-prints {
     display: none;
 }
