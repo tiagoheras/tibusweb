@@ -377,7 +377,7 @@ table, tbody {
 }
 
 .table-container {
-    overflow-x: ;
+    overflow-x: scroll;
 }
 
 /* Menu */
