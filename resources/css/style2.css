@@ -253,7 +253,7 @@ nav {
     text-decoration: underline;
 }
 
-/* Contact */
+/* Contacto */
 
 #contacto .container {
     align-items: center;
@@ -377,7 +377,7 @@ footer .container {
 /* Catalogo */
 
 #catalogo-body {
-    background-color: #212121;
+    background-color: white;
 }
 
 .catalogo-header {
@@ -387,7 +387,7 @@ footer .container {
 .tipo {
     font-size: 2em;
     padding: 10px 0;
-    color: white;
+    color: black;
     margin-left: 50px;
 }
 
