@@ -7,7 +7,6 @@ html, body {
     overflow-x: hidden;
 }
 
-
 h2 {
     font-size: 1.125rem;
     margin: 20px 0;
@@ -82,8 +81,8 @@ i.fa-bars {
 }
 
 #envios-img {
-    height: 250px;
-    width: auto;
+    height: auto;
+    width: 40%;
     margin-right: 10px;
 }
 
