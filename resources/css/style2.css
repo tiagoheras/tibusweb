@@ -286,6 +286,9 @@ nav {
     justify-content: space-around;
     margin-top: 50px;
     width: 300px;
+}
+
+#sm-name {
     color: #5c5c5c;
 }
 
