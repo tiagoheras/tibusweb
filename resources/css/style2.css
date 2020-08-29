@@ -103,8 +103,9 @@ nav {
 }
 
 .dropdown-content a {
-    width: 90px;
-    background-color: red;
+    width: 110px;
+    background-color: white;
+    color: black;
     font-size: 0.875em;
     padding: 8px 16px;
     display: block;
@@ -126,7 +127,7 @@ nav {
 }
 
 .dropdown-content a:hover {
-    background-color: #212121;
+    background-color: #e9e9e9;
 }
 
 #cta {
@@ -190,7 +191,9 @@ nav {
 /* Algunos de nuestros productos */
 
 #algunos {
-    padding-top: 100px;
+    margin-top: 0px;
+    padding: 10px 0px;
+    /* background: linear-gradient(180deg, #1F1F1F 0%, #EEEDF2 146.16%); */
 }
 
 #algunos .text h3 {
@@ -262,6 +265,11 @@ nav {
     text-decoration: underline;
 }
 
+/* Niños sale */
+#sale-niños {
+    width: 100%; 
+    height: auto;
+}
 /* Contacto */
 
 #contacto .container {
@@ -327,6 +335,7 @@ nav {
     color: #1c1c1c;
     position: absolute;
     left: -4%;
+    top: 350%;
 }
 
 #cash {
@@ -397,10 +406,6 @@ footer .container {
 
 #catalogo-body {
     background-color: white;
-}
-
-.catalogo-header {
-    background-color: red;
 }
 
 .tipo {
